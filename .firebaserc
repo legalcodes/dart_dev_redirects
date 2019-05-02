@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "dartdevredirects"
+    "default": "dartdevredirects",
+    "dartdevredirects": "dartdevredirects"
   }
 }
