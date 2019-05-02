@@ -1,0 +1,14 @@
+{
+  "hosting": {
+    "public": "_site",
+    "cleanUrls": true,
+    "trailingSlash": false,
+    "headers": [{
+        "source": "**/*.@(txt|json)",
+        "headers": [ { "key": "Access-Control-Allow-Origin", "value": "*" } ]
+    }],
+    "redirects": [
+      { "source": "/**", "destination": "https://dart.dev/", "type": 301 },
+    ]
+  }
+}
